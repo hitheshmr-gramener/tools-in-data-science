@@ -1,0 +1,13 @@
+name: Test Action
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: hithesh.mr@gramener.com
+        run: echo "Hello, world!"
